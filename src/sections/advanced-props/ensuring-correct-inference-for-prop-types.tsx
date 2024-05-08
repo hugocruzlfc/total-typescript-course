@@ -1,5 +1,5 @@
 import { ComponentProps } from "react";
-import { Equal, Expect } from "../utils/type-utils";
+import { Equal, Expect } from "../../utils/type-utils";
 
 // const buttonProps = {
 //   type: "button",

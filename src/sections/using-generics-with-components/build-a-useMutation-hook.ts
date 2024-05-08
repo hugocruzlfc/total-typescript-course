@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { createUser } from "../lib/fake-external-lib";
-import { Equal, Expect } from "../utils/type-utils";
+import { createUser } from "../../lib/fake-external-lib";
+import { Equal, Expect } from "../../utils/type-utils";
 
 // type Mutation = (...args: any[]) => Promise<any>;
 

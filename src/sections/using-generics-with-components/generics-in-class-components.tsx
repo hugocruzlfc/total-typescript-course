@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { Equal, Expect } from "../utils/type-utils";
+import { Equal, Expect } from "../../utils/type-utils";
 
 // interface TableProps {
 //   rows: any[];

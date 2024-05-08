@@ -1,4 +1,4 @@
-import { Expect, Equal } from "../utils/type-utils";
+import { Expect, Equal } from "../../utils/type-utils";
 
 /**
  * In this exercise, we have a component called ButtonGroup. It takes an array
