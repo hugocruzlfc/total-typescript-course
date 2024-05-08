@@ -5,7 +5,10 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
-    "strict": true
+    "strict": true,
+    "paths": {
+      "fake-external-lib": ["./src/lib/fake-external-lib"]
+    }
   },
   "include": ["vite.config.ts"]
 }
