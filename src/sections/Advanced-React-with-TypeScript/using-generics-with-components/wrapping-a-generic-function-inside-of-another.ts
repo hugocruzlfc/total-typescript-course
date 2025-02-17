@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 /**
  * 1. In this exercise, we want to create a version of the useState

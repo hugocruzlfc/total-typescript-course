@@ -3,8 +3,8 @@ import {
   QueryKey,
   useQuery,
 } from "@tanstack/react-query";
-import { useAuthToken } from "../../../lib/fake-external-lib";
-import { Expect, Equal } from "../../../utils/type-utils";
+import { useAuthToken } from "@/lib/fake-external-lib";
+import { Expect, Equal } from "@/utils/type-utils";
 
 /**
  * Here, we're attempting to create a wrapper around react-query's useQuery

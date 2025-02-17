@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 /**
  * Returning to our useStateAsObject function, we now want to make it work
@@ -16,26 +16,21 @@ import { Equal, Expect } from "../../utils/type-utils";
 //   };
 // }
 
-
 ///solution
 type UseStateReturnValue<T> = {
   value: T;
-	set: React.Dispatch<React.SetStateAction<T>>;
+  set: React.Dispatch<React.SetStateAction<T>>;
 };
 
 export function useStateAsObject<T>(): UseStateReturnValue<T | undefined>;
 export function useStateAsObject<T>(initial: T): UseStateReturnValue<T>;
 export function useStateAsObject<T>(initial?: T) {
-    const [value, set] = useState(initial);
-      return {
+  const [value, set] = useState(initial);
+  return {
     value,
     set,
   };
 }
-
-
-
-
 
 /**
  * If you DO pass a default value, the result should NOT include undefined

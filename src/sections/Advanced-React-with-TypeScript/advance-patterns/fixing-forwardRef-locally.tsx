@@ -1,5 +1,5 @@
 import { ForwardedRef, forwardRef, useRef } from "react";
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 import exp from "constants";
 
 /**

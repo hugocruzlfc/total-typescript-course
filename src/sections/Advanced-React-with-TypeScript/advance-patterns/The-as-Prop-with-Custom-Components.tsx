@@ -1,5 +1,5 @@
+import { Equal, Expect } from "@/utils/type-utils";
 import React, { ElementType } from "react";
-import { Expect, Equal } from "../../utils/type-utils";
 
 /**
  * This is a further extension of 'as'. This time, we can pass in

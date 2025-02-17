@@ -6,7 +6,7 @@
  * namespace below.
  */
 
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 // declare global {
 //   namespace React {}

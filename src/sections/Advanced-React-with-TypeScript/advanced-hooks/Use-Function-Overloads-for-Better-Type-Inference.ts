@@ -1,4 +1,4 @@
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 /**
  * 1. Take a look at useState. You'll notice that it's composed of

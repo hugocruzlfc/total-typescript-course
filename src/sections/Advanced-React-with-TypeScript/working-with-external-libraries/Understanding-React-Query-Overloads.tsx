@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { Expect, Equal } from "../../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 interface User {
   fullName: string;

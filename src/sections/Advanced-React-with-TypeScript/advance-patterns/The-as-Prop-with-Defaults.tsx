@@ -1,5 +1,5 @@
 import { ComponentPropsWithoutRef, ElementType } from "react";
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 // export const Link = <TAs extends ElementType>(
 //   props: {

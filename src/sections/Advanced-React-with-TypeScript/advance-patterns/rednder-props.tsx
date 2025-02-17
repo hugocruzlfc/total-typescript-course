@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 /**
  * In this exercise, we're going to create a Modal component that uses the

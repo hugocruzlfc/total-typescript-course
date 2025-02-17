@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 // interface TableProps {   ❌
 //   renderRow: React.ReactNode;

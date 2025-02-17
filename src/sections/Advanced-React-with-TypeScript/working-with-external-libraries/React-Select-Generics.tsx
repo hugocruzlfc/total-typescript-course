@@ -1,5 +1,5 @@
 import ReactSelect from "react-select";
-import { Expect, Equal } from "../../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 import StateManagedSelect from "react-select";
 
 /**

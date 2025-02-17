@@ -1,5 +1,5 @@
 import { FieldValues, useForm } from "react-hook-form";
-import { Equal, Expect } from "../../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 /**
  * 1. When you provide default values to useForm, the return type of getValues

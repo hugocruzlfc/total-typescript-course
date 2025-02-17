@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 /**
  * Here, we've got a hook that returns a tuple of [value, setValue].

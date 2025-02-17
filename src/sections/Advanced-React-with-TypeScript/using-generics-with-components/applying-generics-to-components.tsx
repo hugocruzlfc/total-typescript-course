@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 /**
  * 1. Here, we have a table component. It takes an array of data and a function

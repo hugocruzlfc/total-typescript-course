@@ -1,5 +1,5 @@
 import { it } from "vitest";
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 /**
  * In this exercise, we want to create a generic useLocalStorage hook

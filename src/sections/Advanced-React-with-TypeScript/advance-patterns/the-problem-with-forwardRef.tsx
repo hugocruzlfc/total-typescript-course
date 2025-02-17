@@ -1,5 +1,5 @@
 import React, { forwardRef, ForwardedRef, useRef } from "react";
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 declare module "react" {
   function forwardRef<T, P = {}>(

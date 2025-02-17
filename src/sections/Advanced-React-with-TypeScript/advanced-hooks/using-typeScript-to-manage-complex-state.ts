@@ -3,7 +3,7 @@ import {
   fetchVideo,
   appendVideoToDomAndPlay,
 } from "../../lib/fake-external-lib";
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 /**
  * This is a complex problem. We want to load a video from a URL and play it.

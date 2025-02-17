@@ -1,5 +1,5 @@
 import { useForm, FieldValues, DefaultValues } from "react-hook-form";
-import { Expect, Extends, Equal } from "../../../utils/type-utils";
+import { Expect, Extends, Equal } from "@/utils/type-utils";
 
 /**
  * Here, we're creating a wrapper around react-hook-form's useForm hook.

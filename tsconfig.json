@@ -20,7 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "fake-external-component": ["./src/components/FakeComponent"]
+      "fake-external-component": ["./src/components/FakeComponent"],
+      "@/*": ["./src/*"]
     }
   },
 

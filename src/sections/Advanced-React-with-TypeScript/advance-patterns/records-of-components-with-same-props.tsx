@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 type InputProps = React.ComponentProps<"input">;
 

@@ -6,7 +6,7 @@ import {
   forwardRef,
   useRef,
 } from "react";
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 /**
  * FYI - this solution took me the best part of a whole day to find,

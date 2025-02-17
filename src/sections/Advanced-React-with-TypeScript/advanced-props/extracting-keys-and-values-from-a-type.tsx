@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 // const BACKEND_TO_FRONTEND_STATUS_MAP = {
 //   0: "pending",

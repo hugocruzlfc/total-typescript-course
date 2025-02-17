@@ -22,7 +22,7 @@
  * - Indexed access types
  */
 
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 // export const Wrapper = (props: any) => {
 //   const Comp = props.as;

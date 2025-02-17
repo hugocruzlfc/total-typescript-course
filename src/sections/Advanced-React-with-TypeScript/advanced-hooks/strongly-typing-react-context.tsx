@@ -1,5 +1,5 @@
 import React from "react";
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 /**
  * Let's take a look at Context in React. Here, we're creating

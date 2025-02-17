@@ -1,5 +1,5 @@
 import { useRouter, Router } from "../../lib/fake-external-lib";
-import { Expect, Equal } from "../../utils/type-utils";
+import { Expect, Equal } from "@/utils/type-utils";
 
 // export const withRouter = <TProps,>(Component: React.ComponentType<TProps>) => {
 //   const NewComponent = (props: Omit<TProps, "router">) => {

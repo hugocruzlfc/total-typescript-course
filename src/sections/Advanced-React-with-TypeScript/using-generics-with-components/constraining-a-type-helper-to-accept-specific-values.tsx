@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../../utils/type-utils";
+import { Equal, Expect } from "@/utils/type-utils";
 
 /**
  * There's a problem with our AllOrNothing type. It's letting
